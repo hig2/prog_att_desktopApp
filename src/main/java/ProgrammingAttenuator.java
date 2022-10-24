@@ -22,7 +22,7 @@ public class ProgrammingAttenuator extends Application {
             Parent root = FXMLLoader.load(Objects.requireNonNull(getClass()
                     .getResource("gui.fxml")));
             primaryStage.setTitle("Аттенюатор v1.0");
-            primaryStage.setScene(new Scene(root, 400, 400, Color.web("#3C3F41")));
+            primaryStage.setScene(new Scene(root, 278, 280, Color.web("#3C3F41")));
             //primaryStage.getIcons().add(new Image("picture/favicon.png"));
             primaryStage.setResizable(false);
             primaryStage.show();
