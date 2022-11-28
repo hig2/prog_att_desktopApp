@@ -153,12 +153,11 @@ public class SerialPortConnect {
                     e.printStackTrace();
                 }
 
-                if((System.currentTimeMillis() - t) > 5000){
+                if((System.currentTimeMillis() - t) > 1000){
                     if(!isExchangeFlag()){
                         close();
                     }
                 }
-
             }
         });
         thread.start();
